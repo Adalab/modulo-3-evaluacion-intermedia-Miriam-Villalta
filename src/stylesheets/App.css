@@ -1,1 +1,31 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.pokelist {
+  list-style: none;
+}
+
+.box {
+  width: 170px;
+  height: 220px;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.image {
+}
+
+.pokemon-name {
+  text-transform: capitalize;
+  margin: 2px;
+}
+.type-list {
+  list-style: none;
+  text-transform: uppercase;
+}

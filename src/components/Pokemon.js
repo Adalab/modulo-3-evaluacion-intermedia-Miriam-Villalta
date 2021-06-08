@@ -9,11 +9,11 @@ const Pokemon = (props) => {
   };
 
   return (
-    <div className={`nombre__clase ${props.item.id}`}>
-      <img src={props.item.url}></img>
-      <h2 className="Title">{props.item.name}</h2>
+    <div className={`box ${props.item.id}`}>
+      <img src={props.item.url} className="image"></img>
+      <h2 className="pokemon-name">{props.item.name}</h2>
       <ul>
-        <li>{renderType()}</li>
+        <li className="type-list">{renderType()}</li>
       </ul>
     </div>
   );

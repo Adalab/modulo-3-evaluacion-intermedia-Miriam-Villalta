@@ -6,7 +6,7 @@ const PokeList = (props) => {
   const eachPokemon = props.list.map((item, index) => {
     console.log(index);
     return (
-      <li key={index}>
+      <li key={index} className="pokelist">
         <Pokemon item={item} />
       </li>
     );

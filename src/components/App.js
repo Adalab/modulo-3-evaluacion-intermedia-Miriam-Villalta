@@ -2,7 +2,6 @@ import React from "react";
 import "../stylesheets/App.css";
 import PokeDex from "../data/PokeDex.json";
 import PokeList from "./PokeList";
-import Pokemon from "./Pokemon";
 
 function App() {
   return (

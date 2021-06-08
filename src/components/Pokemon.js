@@ -1,14 +1,19 @@
 import React from "react";
 
 const Pokemon = (props) => {
-  console.log(props.name);
+  const renderType = () => {
+    return props.item.types.map((types, index) => {
+      console.log(types);
+      return <li key={index}>{types}</li>;
+    });
+  };
 
   return (
-    <div id={props.item.id}>
+    <div className={`nombre__clase ${props.item.id}`}>
       <img src={props.item.url}></img>
       <h2 className="Title">{props.item.name}</h2>
       <ul>
-        <li>{props.item.types}</li>
+        <li>{renderType()}</li>
       </ul>
     </div>
   );

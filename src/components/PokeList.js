@@ -3,10 +3,10 @@ import Pokemon from "./Pokemon.js";
 
 const PokeList = (props) => {
   console.log(props.list);
-  const eachPokemon = props.list.map((item) => {
-    console.log(item);
+  const eachPokemon = props.list.map((item, index) => {
+    console.log(index);
     return (
-      <li>
+      <li key={index}>
         <Pokemon item={item} />
       </li>
     );

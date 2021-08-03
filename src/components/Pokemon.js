@@ -12,7 +12,7 @@ const Pokemon = (props) => {
     <div className={`box ${props.item.id}`}>
       <img src={props.item.url} className="image"></img>
       <h2 className="pokemon-name">{props.item.name}</h2>
-      <ul>
+      <ul className="type">
         <li className="type-list">{renderType()}</li>
       </ul>
     </div>

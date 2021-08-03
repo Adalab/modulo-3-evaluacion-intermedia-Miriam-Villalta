@@ -8,6 +8,9 @@ function App() {
 
   return (
     <>
+      <div className="pokemon-img">
+        <img src="./images/pokemon-logo.png" alt="" className="pokelogo" />
+      </div>
       <h1 className="title">Mi lista de Pokemon</h1>
       <PokeList list={pokemons} />
     </>

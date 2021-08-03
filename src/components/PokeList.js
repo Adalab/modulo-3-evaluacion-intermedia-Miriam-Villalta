@@ -11,6 +11,6 @@ const PokeList = (props) => {
       </li>
     );
   });
-  return <ul>{eachPokemon}</ul>;
+  return <ul className="box-list">{eachPokemon}</ul>;
 };
 export default PokeList;

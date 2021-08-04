@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Pokemon List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project made with React which helps you find Pokemons from first generation. The child you will be delighted!
 
 ## Available Scripts
 

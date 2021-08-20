@@ -1,3 +1,5 @@
+![Pokemon](./images/pokemon-logo.png)
+
 # Pokemon List
 
 Project made with React which helps you find Pokemons from first generation. The child you will be delighted!

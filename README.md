@@ -1,6 +1,5 @@
 
-# Pokemon List![image](https://www.clipartmax.com/max/m2H7m2K9A0H7N4H7/)
-
+# Pokemon List
 
 
 Project made with React which helps you find Pokemons from first generation. The child you will be delighted!

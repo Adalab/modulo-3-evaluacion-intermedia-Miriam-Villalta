@@ -1,4 +1,5 @@
 ![Pokemon](./src/images/pokemon-logo.png)
+[[./src/images/pokemon-logo.png | weigth=50px]]
 
 # Pokemon List
 

@@ -1,7 +1,6 @@
-![Pokemon](./src/images/pokemon-logo.png)
-<img src="./src/images/pokemon-logo.png" weigth="20">
 
-# Pokemon List
+# Pokemon List![image](https://user-images.githubusercontent.com/81676538/130258095-68542f81-c4dd-4cfc-8e8e-d85f651ffaee.png)
+
 
 Project made with React which helps you find Pokemons from first generation. The child you will be delighted!
 

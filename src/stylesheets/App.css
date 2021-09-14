@@ -1,15 +1,27 @@
 .pokemon-img {
-  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .pokelogo {
-  height: 100%;
+  margin-top: 30px;
+}
+
+@media all and (max-width: 768px) {
+  .pokelogo {
+    width: 70%;
+    margin-top: 30px;
+    padding-inline: 150px;
+  }
 }
 
 .title {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 50px;
+  transform: translate(0px, -20px);
+  color: rgb(29, 54, 109);
 }
 
 .box-list {
@@ -30,6 +42,13 @@
 
 @media all and (min-width: 1020px) {
   .box-list {
+    width: 800px;
+    justify-items: center;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .box-list {
     width: 1000px;
     justify-items: center;
   }
@@ -41,12 +60,14 @@
   flex-direction: column;
   flex-wrap: wrap;
   margin: 3px;
+  background-color: rgb(227, 235, 253);
+  border-radius: 15px;
 }
 
 .box {
   width: 170px;
   height: 220px;
-  border: dotted blue 2px;
+  border: dotted rgb(18, 37, 78) 2px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -63,6 +84,7 @@
 .pokemon-name {
   text-transform: capitalize;
   margin: 5px;
+  color: rgb(25, 31, 88);
 }
 
 .list {
@@ -74,6 +96,7 @@
 .type {
   padding: 10px;
   text-align: center;
+  padding-top: 0px;
 }
 
 .type-list {
